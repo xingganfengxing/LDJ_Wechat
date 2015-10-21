@@ -24,7 +24,7 @@ $(function () {
         $("#txtTel").val('');
         $.router.loadPage("#addrForm");
     });
-   
+
     $("#js-ordering").on("click", function () {
         $.router.loadPage("#order");
     });
