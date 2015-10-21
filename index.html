@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>懒到家公众号</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="dist/css/sm.min.css">
+    <link rel="stylesheet" href="dist/css/sm-extend.min.css">
+    <link rel="stylesheet" href="dist/css/main.css">
+
+</head>
+<body>
+<!--首页-->
+<div class="page page-current" id='home'>
+    <header class="bar bar-nav">
+        <button class="button button-link button-nav pull-left">
+            上海 <span class="icon icon-down"></span>
+        </button>
+        <button class="button button-link button-nav pull-right js-checkLogin">
+            注册/登陆
+        </button>
+        <h1 class="title">懒到家</h1>
+    </header>
+    <nav class="bar bar-tab">
+        <a class="tab-item active" href="#">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-cart"></span>
+            <span class="tab-label">订单</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-me"></span>
+            <span class="tab-label">我</span>
+
+        </a>
+    </nav>
+    <div class="content">
+        <div class="home-ad">
+            <div class="swiper-container" data-space-between='10'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="img-ad"
+                                                   src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg"
+                                                   alt=""></div>
+                    <div class="swiper-slide"><img class="img-ad"
+                                                   src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg"
+                                                   alt=""></div>
+                    <div class="swiper-slide"><img class="img-ad"
+                                                   src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1kQI3HpXXXXbSXFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg"
+                                                   alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="home-price">
+            <div class="row">
+                <div id="price_1" class="col-33 home-price-detail border-red">洗衣</div>
+                <div id="price_2" class="col-33 home-price-detail border-red">洗鞋</div>
+                <div id="price_3" class="col-33 home-price-detail border-red">家纺</div>
+            </div>
+            <div class="row">
+                <div id="price_4" class="col-33 home-price-detail border-red">奢侈品</div>
+                <div id="price_5" class="col-33 home-price-detail border-red">皮革</div>
+                <div id="price_6" class="col-33 home-price-detail border-red">其它</div>
+            </div>
+        </div>
+        <div class="home-order">
+            <a id="js-ordering" class="button button-big button-round">预约下单</a>
+        </div>
+    </div>
+</div>
+<!--价目表-->
+<div class="page" id='price'>
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left back">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+
+        <h1 class='title'>价目表</h1>
+    </header>
+    <div class="content">
+        <div class="buttons-tab">
+            <a id="tab_1" href="#tab1" class="tab-link button">洗衣</a>
+            <a id="tab_2" href="#tab2" class="tab-link button">洗裤</a>
+            <a id="tab_3" href="#tab3" class="tab-link button">洗鞋</a>
+            <a id="tab_4" href="#tab4" class="tab-link button">奢侈品</a>
+            <a id="tab_5" href="#tab5" class="tab-link button">皮革</a>
+            <a id="tab_6" href="#tab6" class="tab-link button">其它</a>
+        </div>
+        <div class="content-block">
+            <div class="tabs">
+                <div id="tab1" class="tab">
+
+                    <div class="list-block media-list">
+                        <ul>
+                            <li class="border-bottom">
+                                <a href="#" class="item-content">
+                                    <div class="item-media"><img
+                                            src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg"
+                                            style='width: 4rem;'></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">标题</div>
+                                            <div class="item-after">$15</div>
+                                        </div>
+                                        <div class="item-subtitle">标题</div>
+                                        <div class="item-text">此处是文本内容...</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border-bottom">
+                                <a href="#" class="item-content">
+                                    <div class="item-media"><img
+                                            src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg"
+                                            style='width: 4rem;'></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">标题</div>
+                                            <div class="item-after">$15</div>
+                                        </div>
+                                        <div class="item-subtitle">标题</div>
+                                        <div class="item-text">此处是文本内容...</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border-bottom">
+                                <a href="#" class="item-content">
+                                    <div class="item-media"><img
+                                            src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg"
+                                            style='width: 4rem;'></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">标题</div>
+                                            <div class="item-after">$15</div>
+                                        </div>
+                                        <div class="item-subtitle">标题</div>
+                                        <div class="item-text">此处是文本内容...</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border-bottom">
+                                <a href="#" class="item-content">
+                                    <div class="item-media"><img
+                                            src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg"
+                                            style='width: 4rem;'></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">标题</div>
+                                            <div class="item-after">$15</div>
+                                        </div>
+                                        <div class="item-subtitle">标题</div>
+                                        <div class="item-text">此处是文本内容...</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="item-content">
+                                    <div class="item-media"><img
+                                            src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg"
+                                            style='width: 4rem;'></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">标题</div>
+                                            <div class="item-after">$15</div>
+                                        </div>
+                                        <div class="item-subtitle">标题</div>
+                                        <div class="item-text">此处是文本内容...</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div id="tab2" class="tab">
+                    <div class="content-block">
+                        <p>This is tab 2 content</p>
+                    </div>
+                </div>
+                <div id="tab3" class="tab">
+                    <div class="content-block">
+                        <p>This is tab 3 content</p>
+                    </div>
+                </div>
+                <div id="tab4" class="tab">
+                    <div class="content-block">
+                        <p>This is tab 4 content</p>
+                    </div>
+                </div>
+                <div id="tab5" class="tab">
+                    <div class="content-block">
+                        <p>This is tab5 content</p>
+                    </div>
+                </div>
+                <div id="tab6" class="tab">
+                    <div class="content-block">
+                        <p>This is tab 6 content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--预约下单-->
+<div class="page" id='order'>
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left back">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+
+        <h1 class='title'>预约下单</h1>
+    </header>
+    <div class="content">
+        <div class="list-block">
+            <ul>
+                <!-- Text inputs -->
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <input type="text" value="10-23 11:00~12:00" id='datepicker'/>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div id="orderAddr" class="item-content item-link">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-input">
+                                <div class="item-title">王某偶 1329909821</div>
+                                <div class="item-subtitle">上海某某区某某路12号203室</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p><a class="button button-big btnEnterOrder">确定下单</a></p>
+
+        <p>
+            <a class="button btnEnterOrderip">订单未满10元收取8元运费</a></p>
+        </p>
+        <p class="autoMargin">
+            <img src="img/a-key.png" style="width: 100%;"/>
+        </p>
+    </div>
+</div>
+
+<!--地址列表-->
+<div class="page" id='addrList'>
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left back">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+
+        <h1 class='title'>选取取件地址</h1>
+    </header>
+
+    <div class="content">
+        <div class="list-block">
+            <ul>
+                <li class="item-content item-link btnAddAddr">
+                    <div class="item-media"><i class="icon icon-edit"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">新增取件地址</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="list-block">
+            <ul>
+                <li class="item-content">
+                    <div class="item-media">
+                        <input type="radio" name="radio1"/>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div>王某某 13987672871</div>
+                            <div>上海市开始咯阿斯顿逻辑</div>
+                        </div>
+                        <div class="item-after"><i class="icon icon-edit"></i></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-media">
+                        <input type="radio" name="radio1"/>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div>王某某 13987672871</div>
+                            <div>上海市开始咯阿斯顿逻辑</div>
+                        </div>
+                        <div class="item-after"><i class="icon icon-edit"></i></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--地址表单-->
+<div class="page" id='addrForm'>
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left js-addrFromback">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+
+        <h1 class='title'>添加地址</h1>
+    </header>
+    <div class="content">
+        <div class="content">
+            <div class="list-block">
+                <ul>
+                    <!-- Text inputs -->
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">姓名</div>
+                                <div class="item-input">
+                                    <input type="text" placeholder="请填写取件人名字">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-tel"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">手机号码</div>
+                                <div class="item-input">
+                                    <input type="tel" placeholder="手机号码">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-gender"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">性别</div>
+                                <div class="item-input">
+                                    <select>
+                                        <option>男</option>
+                                        <option>女</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item-content tomap">
+                            <div class="item-media"><i class="icon icon-form-password"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">取件地址</div>
+                                <div class="item-input">
+                                    <input type="text" readonly placeholder="小区，写字楼，学校等">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                            <div class="item-inner">
+
+                                <div class="item-input">
+                                    <input type="text" placeholder="详细地址，具体门牌号">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p><a class="button button-big autoMargin">确定</a></p>
+        </div>
+    </div>
+
+    <!--选择地图-->
+    <div class="page" id='map'>
+        <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-left back">
+                <span class="icon icon-left"></span>
+                返回
+            </a>
+
+            <h1 class='title'>
+                地图选择
+            </h1>
+        </header>
+        <div class="bar bar-header-secondary">
+            <div class="searchbar">
+                <a class="searchbar-cancel">取消</a>
+
+                <div class="search-input">
+                    <label class="icon icon-search" for="search"></label>
+                    <input type="search" id='search' placeholder='输入关键字...'/>
+                </div>
+            </div>
+        </div>
+        <div class="mapCenter"></div>
+        <div id="result1" style="background-color:#fff">
+
+        </div>
+    </div>
+
+
+    <div class="popup popup-login alex-bg">
+        <div class="content-block">
+            <p class="text-center">
+                <img src="img/login_4.png" class="login-logo"/>
+            </p>
+
+            <div class="list-block">
+                <ul>
+                    <!-- Text inputs -->
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                            <div class="item-inner">
+
+                                <div class="item-input">
+                                    <input type="tel" placeholder="请输入你的电话">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-password"></i></div>
+                            <div class="item-inner">
+                                <div class="item-input">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="item-after">
+                                <a class="button js-verify">验证码</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p><a class="button button-big js-btnLogin">登录</a></p>
+
+            <p class="text-center">
+                点击登录即表示您同意<br>
+                <a href="contact1.html" class="external" style=" color: #ffffff;">《懒到家服务协议》</a>
+            </p>
+        </div>
+    </div>
+
+    <script type='text/javascript' src='dist/js/lib/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='dist/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='dist/js/sm-extend.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='main.js' charset='utf-8'></script>
+</body>
+</html>

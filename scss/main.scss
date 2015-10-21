@@ -1,0 +1,69 @@
+$bgcolor:#5cb511;
+$btnbgcolor:#eee;
+$fontC1:#999;
+$fontC2:#666;
+$fontC3:#333;
+.border-red{
+  border:1px solid $fontC3;
+}
+.border-bottom{
+  border-bottom:1px solid $fontC1;
+}
+.handler{
+  cursor: pointer;
+}
+.alex-bg{
+  background: $bgcolor;
+}
+.js-btnLogin{
+  background: $btnbgcolor;
+}
+.js-verify{
+  margin-right: 1rem;
+}
+.btnEnterOrder{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.btnEnterOrderip{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.autoMargin{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+$minHeight : 386px;
+@each $height in 480px,533px, 568px,600px,640px, 667px, 732px,736px,768px,800px,900px,950px,1600px {
+  $bl:($height - 94px)/$minHeight;
+  @media screen and (min-height: #{$height}) {
+    .login-logo{
+      height:100px * ($height/($minHeight + 94px));
+    }
+    .img-ad{
+      height: 150px * $bl;
+      width: 100%;
+    }
+    .home-ad{
+      overflow:hidden;
+      height: 165px * $bl;
+    }
+    .home-price{
+      height:160px * $bl;
+      margin-left: 5px;
+      margin-right: 5px;
+      overflow:hidden;
+    }
+    .home-price-detail{
+      height:70px * $bl;
+      margin-bottom: 5px;
+    }
+    .home-order{
+      height: 50px * $bl;
+      line-height: 50px * $bl;
+      margin-right: 1rem;
+      overflow: hidden;
+      margin-left: 1rem;
+    }
+  }
+}

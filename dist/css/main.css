@@ -1,0 +1,396 @@
+.border-red {
+  border: 1px solid #333; }
+
+.border-bottom {
+  border-bottom: 1px solid #999; }
+
+.handler {
+  cursor: pointer; }
+
+.alex-bg {
+  background: #5cb511; }
+
+.js-btnLogin {
+  background: #eee; }
+
+.js-verify {
+  margin-right: 1rem; }
+
+.btnEnterOrder {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.btnEnterOrderip {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.autoMargin {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+@media screen and (min-height: 480px) {
+  .login-logo {
+    height: 100px; }
+
+  .img-ad {
+    height: 150px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 165px; }
+
+  .home-price {
+    height: 160px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 70px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 50px;
+    line-height: 50px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 533px) {
+  .login-logo {
+    height: 111.04167px; }
+
+  .img-ad {
+    height: 170.59585px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 187.65544px; }
+
+  .home-price {
+    height: 181.96891px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 79.6114px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 56.86528px;
+    line-height: 56.86528px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 568px) {
+  .login-logo {
+    height: 118.33333px; }
+
+  .img-ad {
+    height: 184.19689px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 202.61658px; }
+
+  .home-price {
+    height: 196.47668px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 85.95855px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 61.39896px;
+    line-height: 61.39896px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 600px) {
+  .login-logo {
+    height: 125px; }
+
+  .img-ad {
+    height: 196.63212px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 216.29534px; }
+
+  .home-price {
+    height: 209.74093px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 91.76166px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 65.54404px;
+    line-height: 65.54404px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 640px) {
+  .login-logo {
+    height: 133.33333px; }
+
+  .img-ad {
+    height: 212.17617px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 233.39378px; }
+
+  .home-price {
+    height: 226.32124px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 99.01554px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 70.72539px;
+    line-height: 70.72539px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 667px) {
+  .login-logo {
+    height: 138.95833px; }
+
+  .img-ad {
+    height: 222.66839px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 244.93523px; }
+
+  .home-price {
+    height: 237.51295px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 103.91192px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 74.2228px;
+    line-height: 74.2228px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 732px) {
+  .login-logo {
+    height: 152.5px; }
+
+  .img-ad {
+    height: 247.92746px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 272.72021px; }
+
+  .home-price {
+    height: 264.45596px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 115.69948px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 82.64249px;
+    line-height: 82.64249px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 736px) {
+  .login-logo {
+    height: 153.33333px; }
+
+  .img-ad {
+    height: 249.48187px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 274.43005px; }
+
+  .home-price {
+    height: 266.11399px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 116.42487px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 83.16062px;
+    line-height: 83.16062px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 768px) {
+  .login-logo {
+    height: 160px; }
+
+  .img-ad {
+    height: 261.9171px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 288.10881px; }
+
+  .home-price {
+    height: 279.37824px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 122.22798px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 87.3057px;
+    line-height: 87.3057px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 800px) {
+  .login-logo {
+    height: 166.66667px; }
+
+  .img-ad {
+    height: 274.35233px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 301.78756px; }
+
+  .home-price {
+    height: 292.64249px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 128.03109px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 91.45078px;
+    line-height: 91.45078px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 900px) {
+  .login-logo {
+    height: 187.5px; }
+
+  .img-ad {
+    height: 313.21244px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 344.53368px; }
+
+  .home-price {
+    height: 334.09326px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 146.1658px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 104.40415px;
+    line-height: 104.40415px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 950px) {
+  .login-logo {
+    height: 197.91667px; }
+
+  .img-ad {
+    height: 332.64249px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 365.90674px; }
+
+  .home-price {
+    height: 354.81865px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 155.23316px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 110.88083px;
+    line-height: 110.88083px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+@media screen and (min-height: 1600px) {
+  .login-logo {
+    height: 333.33333px; }
+
+  .img-ad {
+    height: 585.23316px;
+    width: 100%; }
+
+  .home-ad {
+    overflow: hidden;
+    height: 643.75648px; }
+
+  .home-price {
+    height: 624.2487px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden; }
+
+  .home-price-detail {
+    height: 273.10881px;
+    margin-bottom: 5px; }
+
+  .home-order {
+    height: 195.07772px;
+    line-height: 195.07772px;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-left: 1rem; } }
+
+/*# sourceMappingURL=main.css.map */
