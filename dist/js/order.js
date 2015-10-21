@@ -54,12 +54,6 @@ $(function () {
      $(".js-couponList").on("click", function () {
         $.router.loadPage("#couponList");
     });
-    $(".btnAddAddr").on("click", function () {
-        $.router.loadPage("#addrForm");
-    });
-    $(".tomap").on("click", function () {
-        $.router.loadPage("#map");
-    });
-    $(".swiper-container").swiper();
+
     $.init();
 });
