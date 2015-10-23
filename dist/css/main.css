@@ -52,6 +52,16 @@
   margin-right: 5px; }
 
 @media screen and (min-height: 480px) {
+  #iCenter {
+    height: 180px;
+    width: 100%; }
+
+  #result1 {
+    height: 255px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 100px; }
 
@@ -80,6 +90,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 533px) {
+  #iCenter {
+    height: 204.71503px;
+    width: 100%; }
+
+  #result1 {
+    height: 290.01295px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 111.04167px; }
 
@@ -108,6 +128,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 568px) {
+  #iCenter {
+    height: 221.03627px;
+    width: 100%; }
+
+  #result1 {
+    height: 313.13472px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 118.33333px; }
 
@@ -136,6 +166,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 600px) {
+  #iCenter {
+    height: 235.95855px;
+    width: 100%; }
+
+  #result1 {
+    height: 334.27461px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 125px; }
 
@@ -164,6 +204,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 640px) {
+  #iCenter {
+    height: 254.6114px;
+    width: 100%; }
+
+  #result1 {
+    height: 360.69948px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 133.33333px; }
 
@@ -192,6 +242,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 667px) {
+  #iCenter {
+    height: 267.20207px;
+    width: 100%; }
+
+  #result1 {
+    height: 378.53627px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 138.95833px; }
 
@@ -220,6 +280,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 732px) {
+  #iCenter {
+    height: 297.51295px;
+    width: 100%; }
+
+  #result1 {
+    height: 421.47668px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 152.5px; }
 
@@ -248,6 +318,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 736px) {
+  #iCenter {
+    height: 299.37824px;
+    width: 100%; }
+
+  #result1 {
+    height: 424.11917px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 153.33333px; }
 
@@ -276,6 +356,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 768px) {
+  #iCenter {
+    height: 314.30052px;
+    width: 100%; }
+
+  #result1 {
+    height: 445.25907px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 160px; }
 
@@ -304,6 +394,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 800px) {
+  #iCenter {
+    height: 329.2228px;
+    width: 100%; }
+
+  #result1 {
+    height: 466.39896px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 166.66667px; }
 
@@ -332,6 +432,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 900px) {
+  #iCenter {
+    height: 375.85492px;
+    width: 100%; }
+
+  #result1 {
+    height: 532.46114px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 187.5px; }
 
@@ -360,6 +470,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 950px) {
+  #iCenter {
+    height: 399.17098px;
+    width: 100%; }
+
+  #result1 {
+    height: 565.49223px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 197.91667px; }
 
@@ -388,6 +508,16 @@
     overflow: hidden;
     margin-left: 1rem; } }
 @media screen and (min-height: 1600px) {
+  #iCenter {
+    height: 702.27979px;
+    width: 100%; }
+
+  #result1 {
+    height: 994.89637px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%; }
+
   .login-logo {
     height: 333.33333px; }
 

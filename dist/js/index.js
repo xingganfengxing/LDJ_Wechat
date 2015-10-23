@@ -89,6 +89,7 @@ $(function () {
         $.router.loadPage("#addrForm");
     });
     $(".tomap").on("click", function () {
+        mapInit();
         $.router.loadPage("#map");
     });
     $(".swiper-container").swiper();
